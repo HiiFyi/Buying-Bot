@@ -24,7 +24,7 @@ from plugins.Extra.save_restrict_content.join import join
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
 lock = asyncio.Lock()
-OWNER_URL = "https://t.me/onefighterarmy"
+#OWNER_URL = "https://t.me/onefighterarmy"
 
 BUTTON = {}
 BUTTONS = {}
@@ -295,7 +295,7 @@ async def advantage_spoll_choker(bot, query):
                 reqstr1 = query.from_user.id if query.from_user else 0
                 reqstr = await bot.get_users(reqstr1)
                 button = [[
-                    InlineKeyboardButton("💢 𝗿𝗲𝗾𝘂𝗲𝘀𝘁 💢", url=OWNER_URL)
+                    InlineKeyboardButton("💢 𝗿𝗲𝗾𝘂𝗲𝘀𝘁 💢", url=f"https://t.me/onefighterarmy")
                 ]]
                 if NO_RESULTS_MSG:
                     await bot.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, movie)))
