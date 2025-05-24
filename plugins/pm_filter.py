@@ -24,7 +24,7 @@ from plugins.Extra.save_restrict_content.join import join
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.ERROR)
 lock = asyncio.Lock()
-OWNER_URL = https://t.me/onefighterarmy 
+OWNER_URL = "https://t.me/onefighterarmy"
 
 BUTTON = {}
 BUTTONS = {}
