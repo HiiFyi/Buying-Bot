@@ -74,6 +74,8 @@ GRP_LNK = environ.get('GRP_LNK', '')
 CHNL_LNK = environ.get('CHNL_LNK', '')
 TUTORIAL = environ.get('TUTORIAL', '')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '') # Support Chat Link Without https:// or @
+SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '')
+MOVIE_GROUP = environ.get('MOVIE_GROUP', '')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
