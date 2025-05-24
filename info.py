@@ -22,7 +22,8 @@ SESSION = environ.get('SESSION', 'TechVJBot')
 API_ID = int(environ.get('API_ID', ''))
 API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
-#OWNER_NAME = environ.get('OWNER_NAME', "")
+OWNER_URL = environ.get('OWNER_URL', "")
+REQUEST_HERE = environ.get('REQUEST_HERE', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
