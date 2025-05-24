@@ -16,6 +16,9 @@ from database.connections_mdb import active_connection
 from urllib.parse import quote_plus
 from TechVJ.util.file_properties import get_name, get_hash, get_media_file_size
 logger = logging.getLogger(__name__)
+OWNER_URL = https://t.me/onefighterarmy
+SUPPORT_GROUP = https://t.me/+vQMgYe2lYDVkNjI1
+MOVIE_GROUP = https://t.me/+66ai7tQh3OtlZjM1
 
 BATCH_FILES = {}
 join_db = JoinReqs
